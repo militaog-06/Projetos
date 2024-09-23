@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o arquivo CSS externo que irá definir os estilos visuais da página -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>Ídolos históricos do SPFC</title>
+</head>
+
+<body>
+    <!-- Cabeçalho da página com o título principal -->
+    <header>
+        <h1>ÍDOLOS DO TRICOLOR</h1>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção contendo o campo de pesquisa para os jogadores -->
+        <section>
+            <!-- Campo de texto onde o usuário insere o nome do jogador que deseja pesquisar -->
+            <input type="text" placeholder="Digite o nome do jogador desejado" id="campo-pesquisa">
+            <!-- Botão que, ao ser clicado, chama a função 'pesquisar()' para buscar o jogador -->
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <!-- Seção onde os resultados da pesquisa serão exibidos -->
+        <section id="resultados-pesquisa"></section>
+    </main>
+
+    <!-- Rodapé da página com informações adicionais -->
+    <footer>
+        <!-- Texto informativo sobre o conteúdo da página -->
+        <p>2024 - UM POUCO SOBRE ALGUNS JOGADORES HISTÓRICOS DO SÃO PAULO FUTEBOL CLUBE.</p>
+        <!-- Nota sobre direitos autorais -->
+        <p>Todos os direitos autorais reservados.</p>
+    </footer>
+
+    <!-- Inclusão de scripts JavaScript externos que contêm a lógica de dados e a função de pesquisa -->
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
